@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Song List</title>
+</head>
+<body>
+    <h1 class="text-cyan-300 text-[50px] p-5">Your Song list!</h1>
+    <ul id="playlist" class="flex-col flex-wrap text-center text-[24px]"></ul>
+
+<div class="flex justify-around">
+    <button class="border p-2 rounded bg-cyan-300 hover:bg-white hover:text-black">
+        <a href="./fanpage.html">Go Back</a>
+    </button>
+
+    <button id="clearList" class="hover:text-cyan-300 ">Clear the List</button>
+</div>
+
+    <script src="./assets/songs.js"></script>
+</body>
+</html>
