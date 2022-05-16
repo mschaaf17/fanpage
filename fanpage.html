@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 SOS Fan Page!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" type="image/png" href="HTML Projects/favcon3.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css"/>
+  </head>
+
+    <body>
+        
+        <header class="flex flex-wrap justify-between p-5">
+            <h1 class="text-[48px]">5 Seconds of Summer Fan Page!</h1>
+            <nav>
+                <ul class="flex flex-wrap p-5">
+                    <li class="p-5">
+                        <a href="#clickSongs" class="text-white hover:text-cyan-300">View Songs</a>
+
+                        </li>
+                    <li class="p-5">
+                        <a href="./Songs.html" class="text-white hover:text-cyan-300">Check Your Saved Songs</a>
+                    </li>
+                    <!-- <li class="p-5 hover:text-violet-400">Contact Us</li> -->
+                </ul>
+            </nav>
+        </header>
+
+
+    <img
+    src="https://www.billboard.com/wp-content/uploads/media/5sos-nov-2016-billboard-1548.jpg"
+    alt="Band Members" 
+    />
+    <div class="text-center">
+        <button id="funFactBtn" class= "border rounded bg-cyan-300 hover:bg-white hover:text-black mb-5 p-1">Fact about the Band!</button>
+    <div>
+    <div id="funFact"></div>
+
+    <h2 class="text-left px-4 py-2 text-[42px]">5 SOS Bio</h2>
+    <p class="italic px-5 text-[20px]">5 Seconds of Summer are an Australian pop rock band from Sydney, New South Wales. 
+        They formed in 2011. They were first signed to Hi or Hey Records on January 27th 2014. 
+        Band mates include Luke Hemmings, Calum Hood, Michael Clifford, and Ashton Irwin. 
+    </br>
+        <a class="underline hover:text-cyan-300 text-[18px]" href= "https://www.instagram.com/5sos/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Follow 5SOS on Instagram</a>
+    
+    </p>    
+   
+    <div class="text-[24px] pt-5 pb-2" id="clickSongs">Click a song to add to your playlist:</div>
+    <div id="topHits" class="flex flex-col px-20">
+    <button id="s1" class="song trigger text-[20px] border p-2 rounded hover:bg-cyan-300" > Youngblood </button>
+    <button id="s2" class="song trigger text-[20px] border p-2 rounded hover:bg-cyan-300"> Ghost of You </button>
+    <button id="s3" class="song trigger text-[20px] border p-2 rounded hover:bg-cyan-300"> Teeth </button>
+    <button id="s3" class="song triggertext-[20px] border p-2 rounded hover:bg-cyan-300"> Who Do You Love </button>
+    <button id="s3" class="song trigger text-[20px] border p-2 rounded hover:bg-cyan-300"> 2011 </button>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1 class="text-violet-400 text-[18px]">Your song is saved. Check the songs page to review.</h1>
+        </div>
+    </div>
+
+
+    <table class="m-auto my-10 text-[18px]">
+            <th class="border p-5 text-cyan-300">Albums</th>
+            <td class="border p-5">2011 </td>
+            <td class="border p-5" >Calm</td>
+            <td class="border p-5">Youngblood</td>
+            <td class="border p-5">Sounds Good Feels Good</td>
+            <td class="border p-5">5 Seconds of Summer </td>
+        </tr>
+    </table>
+
+<!-- <h3>Click a song to listen to the most popular songs!</h3> -->
+<h3>Listen to 5SOS most popular song!</h3>
+<h5><p>Youngblood</p></h5>
+
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x6r70mf?autoplay=1" width="100%" height="100%" allowfullscreen allow="autoplay"> </iframe> </div>
+
+<!--click song save to local storage give option in the corner to listen on spotify-->
+
+<script src="./assets/script.js"></script>
+</body>
+       </html>
